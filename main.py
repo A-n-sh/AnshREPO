@@ -21,6 +21,16 @@ def encode(password):
 
     return encoded
 
+# decode written by Sophie Ruetschi
+def decode(password_input_list):
+    newPass = ""
+
+    for char in password_input_list:
+        res = int(char) - 3
+        newPass += str(res)
+
+    return newPass
+
 def main():
 
     initial_password = "" # initializes an empty sting for the initial password
