@@ -1,0 +1,18 @@
+    for element in password:
+
+        elif element == "7":
+
+            encoded += "0"
+
+        elif element == "8":
+
+            encoded += "1"
+
+        elif element == "9":
+
+            encoded += "2"
+
+        else:
+
+            encoded += str(int(element)+3) # runs through every element of the password and edits it
+            return encoded # returns back the encoded password to the main() function
